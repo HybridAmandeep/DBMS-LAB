@@ -16,4 +16,4 @@ Feel free to browse and learn from the files provided here. If you want to refer
 
 
 🔗 Connect
-If you have any questions or feedback, feel free to contact me!
+If you have any questions or feedback, feel free to contact me @ amandeep3583kr@gmail.com !
