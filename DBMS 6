@@ -1,13 +1,13 @@
 CREATE TABLE Employee (
-    Empid INT PRIMARY KEY,
-    Name VARCHAR(100),
-    Dept VARCHAR(50) NOT NULL
+    Empid NUMBER PRIMARY KEY,
+    Name VARCHAR2(100),
+    Dept VARCHAR2(50) NOT NULL
 );
 
 CREATE TABLE Accounts (
-    Empid INT PRIMARY KEY,
-    Salary DECIMAL(10,2) CHECK (Salary > 0),
-    FOREIGN KEY (Empid) REFERENCES Employee(Empid) ON DELETE CASCADE
+    Empid NUMBER PRIMARY KEY,
+    Salary NUMBER(10,2) CHECK (Salary > 0),
+    CONSTRAINT fk_emp FOREIGN KEY (Empid) REFERENCES Employee(Empid) ON DELETE CASCADE
 );
 
 INSERT INTO Employee (Empid, Name, Dept) VALUES
