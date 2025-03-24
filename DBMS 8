@@ -17,7 +17,7 @@ INSERT INTO Customer VALUES (3, 'Bob Johnson', 'Chicago');
 
 INSERT INTO Orders VALUES (101, 'Laptop', 1);
 INSERT INTO Orders VALUES (102, 'Mobile', 2);
-INSERT INTO Orders VALUES (103, 'Tablet', NULL); -- Order with no customer
+INSERT INTO Orders VALUES (103, 'Tablet', NULL);
 
 --INNER JOIN (Customers with Orders)
 SELECT C.C_id, C.C_Name, C.Address, O.O_ID, O.O_Name
