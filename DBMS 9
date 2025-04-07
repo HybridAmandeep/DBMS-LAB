@@ -1,4 +1,4 @@
--- Implement the grouping Clouse Group  by ,Order by & having 
+Implement the grouping Clouse Group  by ,Order by & having 
 create table customer (Cid , C name ,Country)
 1. Select count (Cid ) ,Country from customer , Group By country  ;
 2. Select (Cid ) , cOUNTRY FROM CUSTOMER group by having count (Cid) > 2
