@@ -1,21 +1,21 @@
-Implement the grouping Clouse Group  by ,Order by & having 
-create table customer (Cid , C name ,Country)
-1. Select count (Cid ) ,Country from customer , Group By country  ;
-2. Select (Cid ) , cOUNTRY FROM CUSTOMER group by having count (Cid) > 2
-3. Select cID ,Cname From Customer Order By Cid ASC;
-4. Select cID ,Cname From Customer Order By Cid desc;
-5. Select cID ,Cname From Customer Order By Cid Asc, Cname desc;
-6. Create View Cust.View as Select(*) From Customer;
-7. Drop view cust.VIew;
+--Implement the grouping Clouse Group  by ,Order by & having 
+--create table customer (Cid , C name ,Country)
+--1. Select count (Cid ) ,Country from customer , Group By country  ;
+--2. Select (Cid ) , cOUNTRY FROM CUSTOMER group by having count (Cid) > 2
+--3. Select cID ,Cname From Customer Order By Cid ASC;
+--4. Select cID ,Cname From Customer Order By Cid desc;
+--5. Select cID ,Cname From Customer Order By Cid Asc, Cname desc;
+--6. Create View Cust.View as Select(*) From Customer;
+--7. Drop view cust.VIew;
 
-Customer/Country 
-3 From India
-4 From Japan
-2 Frm USA
-2 From UK
+--Customer/Country 
+--3 From India
+--4 From Japan
+--2 Frm USA
+--2 From UK
 
 
-SQL
+--SQL
 
 CREATE TABLE customer (
     Cid NUMBER,
