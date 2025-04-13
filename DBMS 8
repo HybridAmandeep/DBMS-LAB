@@ -11,13 +11,15 @@ CREATE TABLE Orders (
     FOREIGN KEY (C_Id) REFERENCES Customer(C_id)
 );
 
-INSERT INTO Customer VALUES (1, 'John Doe', 'New York');
-INSERT INTO Customer VALUES (2, 'Alice Smith', 'Los Angeles');
-INSERT INTO Customer VALUES (3, 'Bob Johnson', 'Chicago');
+INSERT INTO Customer VALUES 
+    (1, 'John Doe', 'New York'),
+    (2, 'Alice Smith', 'Los Angeles'),
+    (3, 'Bob Johnson', 'Chicago');
 
-INSERT INTO Orders VALUES (101, 'Laptop', 1);
-INSERT INTO Orders VALUES (102, 'Mobile', 2);
-INSERT INTO Orders VALUES (103, 'Tablet', NULL);
+INSERT INTO Orders VALUES 
+    (101, 'Laptop', 1),
+    (102, 'Mobile', 2),
+    (103, 'Tablet', NULL);
 
 --INNER JOIN (Customers with Orders)
 SELECT C.C_id, C.C_Name, C.Address, O.O_ID, O.O_Name
