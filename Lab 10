@@ -1,3 +1,5 @@
+Q--Program for general procedure selected records price is incremented by 500 ,Executing the procedure created and displaying the updated table .
+
 SET SERVEROUTPUT ON;
 
 CREATE TABLE it_items (
